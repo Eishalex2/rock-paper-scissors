@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.scoreContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0 20px 0;
+}
+
+.scoreContainer div {
+  border: solid black 3px;
+  padding: 5px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.play {
+  width: 150px;
+  height: 150px;
+  padding: 15px 20px;
+  font-size: 48px;
+  border: none;
+}
+
+.play:hover {
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+.emoji {
+  margin-bottom: 8px;
+}
+
+#rock:hover {
+  background-color: lightblue;
+}
+
+#paper:hover {
+  background-color: seagreen;
+  color: lightgray;
+}
+
+#scissors:hover {
+  background-color: plum;
+}
+
+.roundContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roundContainer .roundResults {
+  margin-left: 5px;
+  align-self: flex-end;
+}
+
+h2 {
+  color: goldenrod;
+  text-align: center;
+}
+
+.finalResults {
+  
+}

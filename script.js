@@ -29,7 +29,7 @@ function getPlayerChoice(e) {
   if (playerWins < 5 && compWins < 5) {
     playRound(playerChoice);
   } else {
-    finalResults.textContent = 'Play again?'
+    resetBtn.style.backgroundColor = 'yellow';
   }
 }
 
@@ -128,4 +128,5 @@ function reset() {
   playerScore.textContent = `Player score: ${playerWins}`;
   computerScore.textContent = `Computer score: ${compWins}`;
   finalResults.textContent = '';
+  resetBtn.style.backgroundColor = '';
 }
