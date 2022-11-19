@@ -54,15 +54,21 @@ h1 {
   background-color: plum;
 }
 
-.roundContainer {
+.roundMasterContainer {
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin: 20px 0;
 }
 
-.roundContainer .roundResults {
-  margin-left: 5px;
-  align-self: flex-end;
+.roundContainer {
+  border: 2px solid black;
+  width: 200px;
+  height: 75px;
+  text-align: center;
+}
+
+.roundContainer h3 {
+  padding-bottom: 8px;
 }
 
 h2 {
@@ -70,6 +76,23 @@ h2 {
   text-align: center;
 }
 
+.finalMasterContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.finalContainer {
+  border: 4px solid goldenrod;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+}
+
+.finalContainer h2 {
+  text-decoration: underline;
+}
+
 .finalResults {
-  
+  display: flex;
+  margin: auto;
 }
