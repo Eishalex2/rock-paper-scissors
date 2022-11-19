@@ -115,8 +115,7 @@ function getWinner() {
   if (playerWins === 5) {
     finalResults.textContent = 'You won the game! Congratulations!';
   } else if (compWins === 5) {
-    finalResults.style.fontSize = '20px';
-    finalResults.textContent = 'Sorry, you lost! Looks like the computer was luckier this time.';
+    finalResults.textContent = 'Sorry, you lost... :( Looks like the computer was luckier this time.';
   }
 }
 
